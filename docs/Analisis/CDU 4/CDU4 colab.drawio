@@ -1,0 +1,85 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="OLpJzz8stktUwwHjz-Sg">
+    <mxGraphModel dx="1435" dy="1212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value=":Estudiante" vertex="1">
+          <mxGeometry height="120" width="60" x="500" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-2" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;font&gt;:PantallaEvento&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="780" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-3" edge="1" parent="1" source="3hUTGFdJq0PFuztLOJTA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="3hUTGFdJq0PFuztLOJTA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-4" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;font&gt;:GestionReserva&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="1150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-5" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=15;" value=":Reserva" vertex="1">
+          <mxGeometry height="140" width="140" x="1580" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-6" edge="1" parent="1" source="3hUTGFdJq0PFuztLOJTA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="3hUTGFdJq0PFuztLOJTA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-7" edge="1" parent="1" source="3hUTGFdJq0PFuztLOJTA-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="3hUTGFdJq0PFuztLOJTA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);" value="1.Cancelar la reserva pendiente" vertex="1">
+          <mxGeometry height="30" width="110" x="630" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);" value="2. Cancelar reserva" vertex="1">
+          <mxGeometry height="30" width="110" x="990" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);" value="3.Reserva pasa a cancelado" vertex="1">
+          <mxGeometry height="30" width="140" x="1379" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);" value="4.Devolver reserva cancelada" vertex="1">
+          <mxGeometry height="30" width="140" x="1360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);" value="5. Devolver resultado" vertex="1">
+          <mxGeometry height="30" width="140" x="975" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);" value="6. Mostrar reserva&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" x="615" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="260" as="sourcePoint" />
+            <mxPoint x="750" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="975" y="260" as="sourcePoint" />
+            <mxPoint x="1135" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1340" y="250" as="sourcePoint" />
+            <mxPoint x="1530" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1510" y="295" as="sourcePoint" />
+            <mxPoint x="1310" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1130" y="298.57" as="sourcePoint" />
+            <mxPoint x="980" y="298.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hUTGFdJq0PFuztLOJTA-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="755" y="300" as="sourcePoint" />
+            <mxPoint x="585" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
